@@ -65812,7 +65812,7 @@
       ]
     }
   ],
-  "order_status": [],
+ 
   "employees": [
     {
       "id": 1,
@@ -65870,31 +65870,503 @@
       "name": "Engineering"
     }
   ],
-  "products": [],
-  "product_status": [],
-  "brands": [],
-  "shippings": [],
-  "manufaturers": [],
-  "inventories": [],
-  "carts": [],
-  "cart_status": [],
-  "payments": [],
-  "payment_status": [],
-  "publishers": [],
-  "books": [],
-  "book_status": [],
-  "authors": [],
-  "languages": [],
-  "customers": [],
-  "customer_status": [],
-  "addresses": [],
-  "countries": [],
-  "quiz": [],
-  "quizStatus": [],
-  "questions": [],
-  "questionStatus": [],
-  "questionChoices": [],
-  "questionAnswers": [],
-  "quizSubmissions": [],
-  "miscJsonData": []
+  "products": [
+    { "id":1,
+      "image":"https://www.sephora.com/productimages/sku/s1017920-main-zoom.jpg?imwidth=230",
+    "name":"NARS",
+    "description":"The Multiple Cream Blush, Lip and Eye Stick",
+     "price":"39",
+     "rating":4
+  },
+  {
+    "id":2,
+    "image":"https://www.sephora.com/productimages/sku/s2518934-main-zoom.jpg?imwidth=230",
+    "name":"Rare Beauty by Selena Gomez",
+    "description":"Warm Wishes Effortless Bronzer Sticks",
+    "price":"26",
+    "rating":5
+  },
+  {
+    "id":3,
+    "image":"https://www.sephora.com/productimages/sku/s2595007-main-zoom.jpg?imwidth=230",
+    "name":"Dior",
+    "description":"Rouge Dior Forever Transfer-Proof Lipstick",
+    "price":"50",
+    "rating":5
+  },
+  {
+    "id":4,
+    "image":"https://www.sephora.com/productimages/sku/s2210482-main-zoom.jpg?imwidth=230",
+    "name":"LANEIGE",
+    "description":"Lip Glowy Balm",
+    "price":"47",
+    "rating":3.5
+  },
+  {
+    "id":5,
+    "image":"https://www.sephora.com/productimages/sku/s1396399-main-zoom.jpg?imwidth=230",
+    "name":"NARS",
+    "description":"Pure Radiant Tinted Moisturizer Broad Spectrum SPF 30",
+    "price":"45",
+    "rating":3.7
+  },
+  {
+    "id":6,
+    "image":"https://www.sephora.com/productimages/sku/s2407294-main-zoom.jpg?imwidth=230",
+    "name":"Charlotte Tilbury",
+    "description":"Mini Hollywood Flawless Filter",
+    "price":"55",
+    "rating":4.4
+  },
+  {
+    "id":7,
+    "image":"https://www.sephora.com/productimages/sku/s2599108-main-zoom.jpg?imwidth=230",
+    "name":"NARS",
+    "description":"Powermatte Long-Lasting Lipstick",
+    "price":"34",
+    "rating":3
+  },
+  {
+    "id":8,
+    "image":"https://www.sephora.com/productimages/sku/s2509222-main-zoom.jpg?imwidth=230",
+    "name":"Dior",
+    "description":"Rouge Dior Refillable Lipstick",
+    "price":"42",
+    "rating":4.8
+  },
+  { "id":9,
+    "image":"https://www.sephora.com/productimages/sku/s1017920-main-zoom.jpg?imwidth=230",
+  "name":"NARS",
+  "description":"The Multiple Cream Blush, Lip and Eye Stick",
+   "price":"39",
+   "rating":4
+},
+{
+  "id":10,
+  "image":"https://www.sephora.com/productimages/sku/s2518934-main-zoom.jpg?imwidth=230",
+  "name":"Rare Beauty by Selena Gomez",
+  "description":"Warm Wishes Effortless Bronzer Sticks",
+  "price":"26",
+  "rating":5
+},
+{
+  "id":11,
+  "image":"https://www.sephora.com/productimages/sku/s2595007-main-zoom.jpg?imwidth=230",
+  "name":"Dior",
+  "description":"Rouge Dior Forever Transfer-Proof Lipstick",
+  "price":"50",
+  "rating":5
+},
+{
+  "id":12,
+  "image":"https://www.sephora.com/productimages/sku/s2210482-main-zoom.jpg?imwidth=230",
+  "name":"LANEIGE",
+  "description":"Lip Glowy Balm",
+  "price":"47",
+  "rating":3.5
+},
+{
+  "id":13,
+  "image":"https://www.sephora.com/productimages/sku/s1396399-main-zoom.jpg?imwidth=230",
+  "name":"NARS",
+  "description":"Pure Radiant Tinted Moisturizer Broad Spectrum SPF 30",
+  "price":"45",
+  "rating":3.7
+},
+{
+  "id":14,
+  "image":"https://www.sephora.com/productimages/sku/s2407294-main-zoom.jpg?imwidth=230",
+  "name":"Charlotte Tilbury",
+  "description":"Mini Hollywood Flawless Filter",
+  "price":"55",
+  "rating":4.4
+},
+{
+  "id":15,
+  "image":"https://www.sephora.com/productimages/sku/s2599108-main-zoom.jpg?imwidth=230",
+  "name":"NARS",
+  "description":"Powermatte Long-Lasting Lipstick",
+  "price":"34",
+  "rating":3
+},
+{
+  "id":16,
+  "image":"https://www.sephora.com/productimages/sku/s2509222-main-zoom.jpg?imwidth=230",
+  "name":"Dior",
+  "description":"Rouge Dior Refillable Lipstick",
+  "price":"42",
+  "rating":4.8
+}
+  
+  ],
+"fragrance":[
+  {
+    "id":17,
+    "image":"https://www.sephora.com/productimages/sku/s2249738-main-zoom.jpg?imwidth=230",
+    "name":"Yves Saint Laurent",
+    "description":"Libre Eau De Parfum",
+    "price":"72",
+    "rating":4.2
+  },
+  {
+    "id":18,
+    "image":"https://www.sephora.com/productimages/sku/s1688852-main-zoom.jpg?imwidth=230",
+    "name":"Yves Saint Laurent",
+    "description":"Black Opium Eau de Parfum",
+    "price":"70",
+    "rating":4
+  },
+  {
+    "id":19,
+    "image":"https://www.sephora.com/productimages/sku/s1632777-main-zoom.jpg?imwidth=230",
+    "name":"TOM FORD",
+    "description":"Velvet Orchid",
+    "price":"50",
+    "rating":5
+  },
+  {
+    "id":20,
+    "image":"https://www.sephora.com/productimages/sku/s1237379-main-zoom.jpg?imwidth=230",
+    "name":"CHANEL",
+    "description":"CHANCE EAU TENDRE Eau de Toilette",
+    "price":"55",
+    "rating":4.3
+  },
+  {
+    "id":21,
+    "image":"https://www.sephora.com/productimages/sku/s1599869-main-zoom.jpg?imwidth=230",
+    "name":"Dior",
+    "description":"Miss Dior Blooming Bouquet",
+    "price":"60",
+    "rating":3.9
+  },
+  {
+    "id":22,
+    "image":"https://www.sephora.com/productimages/sku/s2541399-main-zoom.jpg?imwidth=230",
+    "name":"Valentino",
+    "description":"Born in Roma Coral Fantasy Eau de Parfum",
+    "price":"58",
+    "rating":4
+  },
+  {
+    "id":23,
+    "image":"https://www.sephora.com/productimages/sku/s2553188-main-zoom.jpg?imwidth=230",
+    "name":"Dior",
+    "description":"J'adore Parfum d'Eau",
+    "price":"58",
+    "rating":5
+  },
+  {
+    "id":24,
+    "image":"https://www.sephora.com/productimages/sku/s2249738-main-zoom.jpg?imwidth=230",
+    "name":"Yves Saint Laurent",
+    "description":"Libre Eau De Parfum",
+    "price":"72",
+    "rating":4.2
+  },
+  {
+    "id":25,
+    "image":"https://www.sephora.com/productimages/sku/s1688852-main-zoom.jpg?imwidth=230",
+    "name":"Yves Saint Laurent",
+    "description":"Black Opium Eau de Parfum",
+    "price":"70",
+    "rating":4
+  },
+  {
+    "id":26,
+    "image":"https://www.sephora.com/productimages/sku/s1632777-main-zoom.jpg?imwidth=230",
+    "name":"TOM FORD",
+    "description":"Velvet Orchid",
+    "price":"50",
+    "rating":5
+  },
+  {
+    "id":27,
+    "image":"https://www.sephora.com/productimages/sku/s1237379-main-zoom.jpg?imwidth=230",
+    "name":"CHANEL",
+    "description":"CHANCE EAU TENDRE Eau de Toilette",
+    "price":"55",
+    "rating":4.3
+  },
+  {
+    "id":28,
+    "image":"https://www.sephora.com/productimages/sku/s1599869-main-zoom.jpg?imwidth=230",
+    "name":"Dior",
+    "description":"Miss Dior Blooming Bouquet",
+    "price":"60",
+    "rating":3.9
+  },
+  {
+    "id":29,
+    "image":"https://www.sephora.com/productimages/sku/s2541399-main-zoom.jpg?imwidth=230",
+    "name":"Valentino",
+    "description":"Born in Roma Coral Fantasy Eau de Parfum",
+    "price":"58",
+    "rating":4
+  },
+  {
+    "id":30,
+    "image":"https://www.sephora.com/productimages/sku/s2553188-main-zoom.jpg?imwidth=230",
+    "name":"Dior",
+    "description":"J'adore Parfum d'Eau",
+    "price":"58",
+    "rating":5
+  }
+],
+"brushes":[
+  { "id":31,
+    "image":"https://www.sephora.com/productimages/sku/s2489144-main-zoom.jpg?imwidth=230",
+   "name":"Fable & Mane",
+   "description":"Scalp Massager Comb",
+   "price":"15",
+   "rating":3
+},
+{
+  "id":32,
+  "image":"https://www.sephora.com/productimages/sku/s2497220-main-zoom.jpg?pb=2020-03-sephora-value-2020&imwidth=230",
+  "name":"SEPHORA COLLECTION",
+  "description":"Total Coverage Angled Sponge",
+  "price":"12",
+  "rating":4.2
+},
+{
+  "id":33,
+  "image":"https://www.sephora.com/productimages/sku/s2230829-main-zoom.jpg?pb=allure-hall-of-fame-best-of-beauty&imwidth=230",
+  "name":"beautyblender",
+  "description":"ORIGINAL BEAUTYBLENDER Makeup Sponge",
+  "price":"20",
+  "rating":4
+},
+{
+  "id":34,
+  "image":"https://www.sephora.com/productimages/sku/s1201474-main-zoom.jpg?pb=2020-03-allure-best-2018&imwidth=230",
+  "name":"Shiseido",
+  "description":"Eyelash Curler",
+  "price":"28",
+  "rating":3
+},
+{
+  "id":35,
+  "image":"https://www.sephora.com/productimages/sku/s2583532-main-zoom.jpg?pb=2020-03-sephora-value-2020&imwidth=230",
+  "name":"SEPHORA COLLECTION",
+  "description":"Feeling Groovy Mini Eye Brush Set",
+  "price":"15",
+  "rating":2
+},
+{
+  "id":36,
+  "image":"https://www.sephora.com/productimages/sku/s2549046-main-zoom.jpg?pb=2020-03-sephora-value-2020&imwidth=230",
+  "name":"SEPHORA COLLECTION",
+  "description":"Pack It All Organizer",
+  "price":"45",
+  "rating":2.5
+},
+{
+  "id":37,
+  "image":"https://www.sephora.com/productimages/sku/s2658045-main-zoom.jpg?imwidth=230",
+  "name":"PATRICK TA",
+  "description":"Airwrap™ Multi-Styler Complete Long",
+  "price":"120",
+  "rating":3.8
+},
+{
+  "id":38,
+  "image":"https://www.sephora.com/productimages/sku/s2497121-main-zoom.jpg?imwidth=230",
+  "name":"MAKEUP BY MARIO",
+  "description":"Surreal Foundation F4 Brush",
+  "price":"48",
+  "rating":4
+},
+{ "id":39,
+  "image":"https://www.sephora.com/productimages/sku/s2489144-main-zoom.jpg?imwidth=230",
+   "name":"Fable & Mane",
+   "description":"Scalp Massager Comb",
+   "price":"15",
+   "rating":3
+},
+{
+  "id":40,
+  "image":"https://www.sephora.com/productimages/sku/s2497220-main-zoom.jpg?pb=2020-03-sephora-value-2020&imwidth=230",
+  "name":"SEPHORA COLLECTION",
+  "description":"Total Coverage Angled Sponge",
+  "price":"12",
+  "rating":4.2
+},
+{
+  "id":41,
+  "image":"https://www.sephora.com/productimages/sku/s2230829-main-zoom.jpg?pb=allure-hall-of-fame-best-of-beauty&imwidth=230",
+  "name":"beautyblender",
+  "description":"ORIGINAL BEAUTYBLENDER Makeup Sponge",
+  "price":"20",
+  "rating":4
+},
+{
+  "id":42,
+  "image":"https://www.sephora.com/productimages/sku/s1201474-main-zoom.jpg?pb=2020-03-allure-best-2018&imwidth=230",
+  "name":"Shiseido",
+  "description":"Eyelash Curler",
+  "price":"28",
+  "rating":3
+},
+{
+  "id":43,
+  "image":"https://www.sephora.com/productimages/sku/s2583532-main-zoom.jpg?pb=2020-03-sephora-value-2020&imwidth=230",
+  "name":"SEPHORA COLLECTION",
+  "description":"Feeling Groovy Mini Eye Brush Set",
+  "price":"15",
+  "rating":2
+},
+{
+  "id":44,
+  "image":"https://www.sephora.com/productimages/sku/s2549046-main-zoom.jpg?pb=2020-03-sephora-value-2020&imwidth=230",
+  "name":"SEPHORA COLLECTION",
+  "description":"Pack It All Organizer",
+  "price":"45",
+  "rating":2.5
+},
+{
+  "id":45,
+  "image":"https://www.sephora.com/productimages/sku/s2658045-main-zoom.jpg?imwidth=230",
+  "name":"PATRICK TA",
+  "description":"Airwrap™ Multi-Styler Complete Long",
+  "price":"120",
+  "rating":3.8
+},
+{
+  "id":46,
+  "image":"https://www.sephora.com/productimages/sku/s2497121-main-zoom.jpg?imwidth=230",
+  "name":"MAKEUP BY MARIO",
+  "description":"Surreal Foundation F4 Brush",
+  "price":"48",
+  "rating":4
+}
+],
+"bathandbody":[
+  { "id":47,
+    "image":"https://www.sephora.com/productimages/sku/s1802412-main-zoom.jpg?imwidth=230",
+    "name":"Sol de Janeiro",
+    "description":"Brazilian Bum Bum Body Cream",
+    "price":"120",
+    "rating":3
+  },
+  {
+    "id":48,
+    "image":"https://www.sephora.com/productimages/sku/s2205417-main-zoom.jpg?imwidth=230",
+    "name":"Sol de Janeiro",
+    "description":"Bum Bum Jet Set",
+    "price":"58",
+    "rating":5
+  },
+  { "id":49,
+    "image":"https://www.sephora.com/productimages/sku/s2556744-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge&imwidth=230",
+    "name":"Touchland",
+    "description":"Power Mist Hydrating Hand Sanitizer",
+    "price":"120",
+    "rating":5
+  },
+  { "id":50,
+    "image":"https://www.sephora.com/productimages/sku/s2535367-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=230",
+    "name":"Supergoop!",
+    "description":"Unseen Sunscreen SPF 40 PA+++",
+    "price":"120",
+    "rating":4.5
+  },
+  {
+    "id":51,
+    "image":"https://www.sephora.com/productimages/sku/s2484533-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=230",
+    "name":"Touchland",
+    "description":"Power Mist Hydrating Hand Sanitizer",
+    "price":"140",
+    "rating":4.8
+  },
+  {
+    "id":52,
+    "image":"https://www.sephora.com/productimages/sku/s2435261-main-zoom.jpg?pb=allure-best-2021-badge&imwidth=230",
+    "name":"Shiseido",
+    "description":"Unseen Sunscreen SPF 40 PA+++",
+    "price":"99",
+    "rating":5
+  },
+  {
+    "id":53,
+    "image":"https://www.sephora.com/productimages/sku/s2364115-main-zoom.jpg?pb=2020-03-allure-best-2019&imwidth=230",
+    "name":"Nécessaire",
+    "description":"The Body Wash - With Niacinamide, Vitamins + Plant Surfactants",
+    "price":"120",
+    "rating":4.4
+  },
+  {
+    "id":54,
+    "image":"https://www.sephora.com/productimages/sku/s2652311-main-zoom.jpg?imwidth=230",
+    "name":"Sol de Janeiro",
+    "description":"Body Firmeza Massage Tool",
+    "price":"150",
+    "rating":4
+  },
+  {
+    "id":55,
+    "image":"https://www.sephora.com/productimages/sku/s1802412-main-zoom.jpg?imwidth=230",
+    "name":"Sol de Janeiro",
+    "description":"Brazilian Bum Bum Body Cream",
+    "price":"120",
+    "rating":3
+  },
+  {
+    "id":56,
+    "image":"https://www.sephora.com/productimages/sku/s2205417-main-zoom.jpg?imwidth=230",
+    "name":"Sol de Janeiro",
+    "description":"Bum Bum Jet Set",
+    "price":"58",
+    "rating":5
+  },
+  {
+    "id":57,
+    "image":"https://www.sephora.com/productimages/sku/s2556744-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge&imwidth=230",
+    "name":"Touchland",
+    "description":"Power Mist Hydrating Hand Sanitizer",
+    "price":"120",
+    "rating":5
+  },
+  {
+    "id":58,
+    "image":"https://www.sephora.com/productimages/sku/s2535367-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=230",
+    "name":"Supergoop!",
+    "description":"Unseen Sunscreen SPF 40 PA+++",
+    "price":"120",
+    "rating":4.5
+  },
+  {
+    "id":59,
+    "image":"https://www.sephora.com/productimages/sku/s2484533-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=230",
+    "name":"Touchland",
+    "description":"Power Mist Hydrating Hand Sanitizer",
+    "price":"140",
+    "rating":4.8
+  },
+  {
+    "id":60,
+    "image":"https://www.sephora.com/productimages/sku/s2435261-main-zoom.jpg?pb=allure-best-2021-badge&imwidth=230",
+    "name":"Shiseido",
+    "description":"Unseen Sunscreen SPF 40 PA+++",
+    "price":"99",
+    "rating":5
+  },
+  {
+    "id":61,
+    "image":"https://www.sephora.com/productimages/sku/s2364115-main-zoom.jpg?pb=2020-03-allure-best-2019&imwidth=230",
+    "name":"Nécessaire",
+    "description":"The Body Wash - With Niacinamide, Vitamins + Plant Surfactants",
+    "price":"120",
+    "rating":4.4
+  },
+  {
+    "id":62,
+    "image":"https://www.sephora.com/productimages/sku/s2652311-main-zoom.jpg?imwidth=230",
+    "name":"Sol de Janeiro",
+    "description":"Body Firmeza Massage Tool",
+    "price":"150",
+    "rating":4
+  }
+]
+
 }
